@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+ultralytics
+os
+shutil
+PIL
+cv2
