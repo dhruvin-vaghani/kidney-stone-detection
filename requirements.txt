@@ -1,5 +1,5 @@
 streamlit
 ultralytics
-cv2
+opencv
 pandas
 numpy
