@@ -1,11 +1,12 @@
 import streamlit as st
-from ultralytics import YOLO
+from ultralytics.models import YOLO
 import cv2
 import numpy as np
 from PIL import Image
 
 # Load YOLO model
 model = YOLO("runs/detect/train/weights/best.pt")
+
 
 st.title("YOLO Kidney Stone Detection!")
 st.write("Upload a Kidney Image to detect Stones")
