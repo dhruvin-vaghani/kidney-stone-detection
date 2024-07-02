@@ -1,8 +1,5 @@
 streamlit
+ultralytics
+cv2
 pandas
 numpy
-ultralytics
-os
-shutil
-PIL
-cv2
